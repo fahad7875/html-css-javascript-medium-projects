@@ -1,0 +1,154 @@
+/* global styling code */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfe3ee;
+}
+
+/* styling container */
+
+.container {
+  background-color: #55acee;
+  width: 400px;
+  min-height: 480px;
+  height: auto;
+  padding: 7px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.25),
+    -4px -8px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* styling header section */
+
+.header {
+  padding: 5px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000;
+}
+
+.header h5 {
+  color: #000;
+  font-size: 1rem;
+  padding: 7px;
+  margin: 5px auto;
+}
+
+/* styling form element */
+
+.main {
+  margin: 5px auto 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main p {
+  color: rgba(255, 0, 0, 0.877);
+  font-size: 1.2rem;
+  padding: 8px;
+  margin: 0 auto 15px;
+}
+
+.all-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.block label {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+form input {
+  color: #000;
+  font-size: 1.1rem;
+  padding: 8px 5px;
+  margin: 5px auto;
+  width: 85px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.calc {
+  width: 130px;
+  color: #fff;
+  background-color: #04aa6d;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25),
+    -4px -4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* control javascript class */
+
+.scaling{
+  font-weight: bold;
+  color: #000;
+  background-color: gold;
+  transform: scale(95%);
+}
+
+/* styling show age portion */
+
+.show-age {
+  margin: 20px auto;
+  padding: 8px;
+  text-align: center;
+}
+
+.show-age p {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+/* styling footer portion */
+
+.footer {
+  margin: 20px auto 0px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #fff;
+}
+
+.footer p {
+  padding: 8px;
+  margin-top: 10px;
+}

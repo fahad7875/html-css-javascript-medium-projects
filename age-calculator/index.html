@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>age-calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Age Calculator</h1>
+        <h5>Input your Birthday</h5>
+      </div>
+
+      <div class="main">
+        <p class="alert-msg"></p>
+
+        <form id="form" autocomplete="off">
+          <div class="all-block">
+            <div class="block">
+              <label for="date">Date</label>
+              <input
+                type="text"
+                name="date"
+                id="date"
+                maxlength="2"
+                size="2"
+                placeholder="dd"
+                required
+              />
+            </div>
+
+            <div class="block">
+              <label for="month">Month</label>
+              <input
+                type="text"
+                name="month"
+                id="month"
+                maxlength="2"
+                size="2"
+                placeholder="mm"
+                required
+              />
+            </div>
+
+            <div class="block">
+              <label for="year">Year</label>
+              <input
+                type="text"
+                name="year"
+                id="year"
+                maxlength="4"
+                size="4"
+                placeholder="yyyy"
+                required
+              />
+            </div>
+          </div>
+
+          <input type="submit" class="calc" value="Calculate">
+
+
+        </form>
+      </div>
+
+      <div class="show-age">
+        <p></p>
+      </div>
+
+      <div class="footer">
+        <p>
+          &copy Fahad . All Right Reserved .<br />
+          This project made by Fahad at 15 March, 2022 .
+        </p>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
