@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>calculator</h1>
+  </header>
+  <main>
+    <section class="calc-head">
+      <input type="text" id="result" size="10">
+    </section>
+
+    <section class="calc-body">
+      <div>
+
+        <input type="button" class="btn clear-result" value="C">
+        <input type="button" class="btn" value="+/-">
+        <input type="button" class="btn parcent" value="%">
+        <input type="button" class="btn btn-style" value="/" onclick="addValue(value)">
+
+      </div>
+
+      <div>
+
+        <input type="button" class="btn" value="7" onclick="addValue(value)">
+        <input type="button" class="btn" value="8" onclick="addValue(value)">
+        <input type="button" class="btn" value="9" onclick="addValue(value)">
+        <input type="button" class="btn btn-style" value="X" onclick="addValue('*')">
+
+      </div>
+
+      <div>
+
+        <input type="button" class="btn" value="4" onclick="addValue(value)">
+        <input type="button" class="btn" value="5" onclick="addValue(value)">
+        <input type="button" class="btn" value="6" onclick="addValue(value)">
+        <input type="button" class="btn btn-style" value="-" onclick="addValue(value)">
+
+      </div>
+
+      <div>
+
+        <input type="button" class="btn" value="1" onclick="addValue(value)">
+        <input type="button" class="btn" value="2" onclick="addValue(value)">
+        <input type="button" class="btn" value="3" onclick="addValue(value)">
+        <input type="button" class="btn btn-style" value="+" onclick="addValue(value)">
+
+      </div>
+
+      <div>
+
+        <input type="button" class="btn" value="0" onclick="addValue(value)">
+        <input type="button" class="btn" value="." onclick="addValue(value)">
+        <input type="button" class="btn delete" value="DEL">
+        <input type="button" class="btn calculate" style="background-color: orange;" value="=">
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>@copy Fahad . All right reserved <br> This project made by Fahad at 17 March , 2022 .</p>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>

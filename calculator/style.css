@@ -1,0 +1,96 @@
+/* reset code here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #dbe6fd;
+}
+
+/* styling header element */
+
+header{
+  margin-top: 3rem;
+}
+
+header h1{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* styling main portion */
+
+main{
+  margin: 0 auto;
+  max-width: 35rem;
+  height: auto;
+  text-align: center;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3sec;
+  font-size: 0;
+}
+
+main:hover{
+  box-shadow: 0 16px 32px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* styling first secction of main */
+
+.calc-head #result{
+  width: 35rem;
+  height: 10rem;
+  font-size: 3.2rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+/* styling calc-body portion */
+
+.calc-body .btn {
+  width: 8.7rem;
+  height: 7rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1f2326;
+  border: 1px solid #fff;
+}
+
+.calc-body .btn-style{
+  background-color: #5a46ac;
+}
+
+/* .calc-body .btn:hover{
+  background-color: pink;
+} */
+
+.calc-body .scaling{
+  transform: scale(90%);
+  background-color: pink;
+}
+
+/* styling footer portion */
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 5rem;
+  text-align: center;
+}
+
+footer p{
+  font-size: 1rem;
+  color:rgba(0, 0, 0, 0.5);
+  padding: 0.7rem;
+}
