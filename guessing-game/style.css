@@ -1,0 +1,130 @@
+/* reset or global code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: bisque;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling container */
+.container {
+  width: 450px;
+  height: 320px;
+  background-color: #0096f4;
+  border-radius: 0 1rem;
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4), -4px -8px 10px rgb(0, 0, 0, 0.4);
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #ff7777;
+  background-color: #f7e174;
+  transition: all 0.5s;
+}
+
+/* styling  header element */
+header h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+/* styling main section */
+main .input-section {
+  text-align: center;
+  transition: all 0.8s;
+}
+
+.showAction {
+  font-size: 2rem;
+  width: 380px;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #ec6a71;
+  padding: 0.7rem 0;
+  display: none;
+}
+
+.guessing-number {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.guessing-number label {
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 0.7rem;
+}
+
+#guessNumber {
+  width: 120px;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.submitBtn {
+  display: block;
+}
+
+.playAgain {
+  display: none;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* styling result section */
+.result-section {
+  margin: 2.5rem 0 1rem 0;
+  text-align: center;
+  transition: all 0.8s;
+}
+
+.guessResult,
+.remainingAttempts,
+.won-lost,
+.percentage {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0.7rem;
+}
+
+/* styling playAgain button */
+.result-section {
+  display: none;
+}
+
+/* classes which manipulates in javaScript */
+.showActionActive,
+.result-sectionActive,
+.playAgainActive {
+  display: block;
+}
+
+.submitBtnDisable {
+  display: none;
+}
